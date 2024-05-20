@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>portafolio</title>
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <header class="contenedor-header shadow-md rounded-lg p-4 bg-violet-500 fixed top-0 w-full min-h-1 ">
+        <section class="logo text-3xl mt-1">
+            <a href="#">Ana Maria</a>
+        </section>
+        <nav id="nav" class="flex items-center justify-end  ">
+            <ul class="flex space-x-6 ">
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#informacion personal">INFORMACION PERSONAL</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#Biografia">BIOGRAFIA</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- seccion inicio -->
+    <section id="inicio" class="inicio justify-center flex w-full bg-slate-900 container mx-auto mt-8 ">
+        <section class="contenido-banner p-1.5 bg-sky-300 max-w-6xl text-center flex-col flex items-center max-w-60  my-24">
+            <section class="contenedor-img ">
+                <img src="img/foto perfil.jpg" alt="" class="rounded-3xl block w-80 m-0 text-center ">
+            </section>
+            <h1>Ana Maria Sarria Arce</h1>
+        </section>
+    </section>
+
+    <!-- seccion informacion personal -->
+    <section id="informacion personal" class="informacionpersonal bg-violet-300">
+        <section class="contenido-seccion ">
+            <h2 class="mb-4 text-3xl font-bold text-center">informacion personal</h2>
+            <p><span class="font-bold text-green-800 ">Hola, soy Ana Maria Sarria Arce y estos son mis datos personales</span></p>
+            <section class="fila ">
+                <!-- datos personales -->
+                <section class="col p-14 flex m-0 p-0">
+                    <h3 class="text-left font-bold pr-4 ">Datos personales</h3>
+                    <ul>
+                        <li class="mb-2 m-4 box-border font-sans list-item ">
+                            <span class="text-left font-bold pr-4">Nombre:</span> Ana Maria Sarria Arce
+                        </li>
+                        <li class="mb-2  m-4 box-border font-sans list-item">
+                            <span class="text-left font-bold pr-4">Cedula:</span> 1059594660
+                        </li>
+                        <li class="mb-2  m-4 box-border font-sans list-item">
+                            <span class="text-left font-bold pr-4 ">Telefono:</span> 3187331595
+                        </li>
+                        <li class="mb-2 m-4 box-border font-sans list-item">
+                            <span class=" text-left font-bold pr-4">Direccion:</span> Carpintero/Morales
+                        </li>
+                        <li class="mb-2  m-4 box-border font-sans list-item">
+                            <span class="text-left font-bold pr-4">Edad:</span> 19 años
+                        </li>
+                        <li class="mb-2 m-4 box-border font-sans list-item">
+                            <span class="text-left font-bold pr-4">Email:</span> sarriaarceanamaria18@gmail.com
+                        </li>
+                        <li class="mb-2 m-4 box-border font-sans list-item ">
+                            <span class="text-left font-bold pr-4">Fecha Nacimiento:</span> 18-08-2004
+                        </li>
+                    </ul>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <!-- seccion skills -->
+    <section class="skills" id="skills">
+        <section class="contenido-seccion bg-red-400">
+            <h2 class="mb-4 text-3xl font-bold text-center">Skills</h2>
+            <section class="fila">
+                <!--  tecnica skills -->
+                <section class="col  ">
+                    <section class="skills mb-4 p-10">
+                        <span class="font-bold block ">Comunicacion</span>
+                        <section class="barra-skills h-2 w-52 bg-red-600 relative mb-2">
+                            <section class="progreso  absolute min-h-10 w-10 bg-slate-200 rounded-3xl leading-10 text-center inset-y-0 m-0">
+                                <span>80%</span>
+                            </section>
+                        </section>
+                    </section>
+                    <section class="skills mb-4 p-10">
+                        <span class="font-bold">Aprendizaje</span>
+                        <section class="barra-skills h-2 w-52 bg-red-600 mb-2 relative ">
+                            <section class="progreso absolute min-h-10 w-10 bg-slate-200 rounded-3xl leading-10 text-center inset-y-0 m-0 ">
+                                <span>70%</span>
+                            </section>
+                        </section>
+                    </section>
+                    <section class="skills mb-4 p-10">
+                        <span class="font-bold">Amabilidad</span>
+                        <section class="barra-skills h-2 w-52 bg-red-600 relative mb-2 ">
+                            <section class="progreso absolute min-h-10 w-10 bg-slate-200 rounded-3xl leading-10 text-center inset-y-0 m-0">
+                                <span>90%</span>
+                            </section>
+                        </section>
+                    </section>
+                    <section class="skills mb-4 p-10">
+                        <span class="font-bold">Desicion</span>
+                        <section class="barra-skills h-2 w-52 bg-red-600 relative mb-2">
+                            <section class="progreso absolute min-h-10 w-10 bg-slate-200 rounded-3xl leading-10 text-center inset-y-0 m-0">
+                                <span>85%</span>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <!--  seccion biografia -->
+    <section id="Biografia" class="biografia ">
+        <section class="contenido-seccion bg-teal-400 p-14 text-center">
+            <h2 class="mb-4 text-3xl font-bold ">Biografia</h2>
+            <section class="fila">
+                <section class="col iquierda box-border m-0 p-0  ">
+                    <p>"Hola,mi nombre es Ana Maria Sarria Arce tengo 19 años,actualmente estoy estudiando la carrera de Analisis y Desarrollo de Software.Naci el 18 de agosto de 2004 en el Municipio de Morales Cauca.Mis padres Eduar Andres Sarria y Maribel Arce Vidal.Mi primaria y secundaria la realice en el colegio"Institucion Educativa Agropecuaria Hermes Martinez.Me considero habil para aprender,comunicarme y trabajar en equipo.Mis actividades en la carrera de ADSO a lo largo de este tiempo han sido satisfactorias, he aprendido diferentes habilidades como lo son html,css, crear proyectos,y base de datos. Me gusta mucho salir a caminar,y durante mis horas libres arreglo mis cosas y ayudo en casa. Mi proyecto de vida es seguirme preparando poder abquirir mas conocimiemto para ser una gran profesional en el futuro.</p>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <!--  seccion contacto -->
+    <section id="contacto" class="contacto">
+        <section class="contenido-seccion bg-slate-100  ">
+            <h2 class="mb-4 text-3xl text-center font-bold p-5">Contacto</h2>
+            <section class="fila flex">
+                <!-- formulario -->
+                <section class="col w-6/12 p-2.5 relative">
+                    <input type="text" placeholder="Nombre" class="block w-9/12 p-4 mb-5 bg-fuchsia-400   text-lg  box-border rounded m-4 ">
+                    <input type="text" placeholder="Numero Telefonico" class="block w-9/12 p-4 mb-5 bg-fuchsia-400   text-lg  box-border rounded m-4">
+                    <input type="text" placeholder="Direccion de correo" class="block w-9/12 p-4 mb-5 bg-fuchsia-400   text-lg  box-border rounded m-4">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" class="block w-9/12 p-4 mb-5 bg-fuchsia-400   text-lg  box-border rounded m-4"></textarea>
+                    <button class="cursor-pointer bg-lime-300 w-fit m-5 p-2.5 text-xl relative flex z-10">
+                        Enviar Mensaje<i class=""></i>
+                    </button>
+                </section>
+                <!-- mapa -->
+                <section class="col w-full flex">
+                    <img src="img/Google-Maps-PNG.png" alt="" class="">
+                    <section class="w-full absolute bg-pink-400 p-5  max-w-72 ">
+                        <ul>
+                            <li>
+                                <i class=""></i>
+                                Bello horizonte
+                            </li>
+                            <li>
+                                <i class="fas fa-mobile-screen"></i>
+                                Llamame: 3187331595
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                Email: sarriaarceanamaria18@gmail.com
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </section>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
